@@ -57,7 +57,6 @@ function App() {
         {
           type: 'experiences-list',
           title: 'Experiences',
-          description: 'Optional',
           icon: 'archive',
           items: [
             {
