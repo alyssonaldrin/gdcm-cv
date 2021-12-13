@@ -35,6 +35,73 @@ function App() {
            solution design and code quality.`,
           icon: 'usertie',
         },
+        {
+          type: 'common-list',
+          title: 'Education',
+          icon: 'graduation',
+          items: [
+            {
+              title: "Bachelor's Degree Civil Engineering",
+              authority: 'IFPB - Cajazeiras',
+              authorityWebSite: 'https://www.ifpb.edu.br',
+              rightSide: '2014 - 2019',
+            },
+            {
+              title: 'Technologist in Systems Analysis and Development',
+              authority: 'IFPB - Cajazeiras',
+              authorityWebSite: 'https://www.ifpb.edu.br',
+              rightSide: '2021 - Present',
+            },
+          ],
+        },
+        {
+          type: 'experiences-list',
+          title: 'Experiences',
+          description: 'Optional',
+          icon: 'archive',
+          items: [
+            {
+              title: 'Intern',
+              company: 'CWI Software',
+              description:
+                'Developing solutions, on React(Next).ts and APS.NET.',
+              companyWebSite: 'https://cwi.com.br',
+              datesBetween: '2021.09 - Present',
+              descriptionTags: ['React', 'ASP.NET', 'Typescript'],
+            },
+          ],
+        },
+        {
+          type: 'common-list',
+          title: 'Languages',
+          icon: 'language',
+          items: [
+            {
+              authority: 'Portuguese',
+              authorityMeta: 'Native Language',
+            },
+            {
+              authority: 'English',
+              authorityMeta: 'Intermediary to Advanced',
+            },
+            {
+              authority: 'Spanish',
+              authorityMeta: 'Can understand',
+            },
+          ],
+        },
+        {
+          type: 'tag-list',
+          title: 'Skills Proficiency',
+          icon: 'rocket',
+          items: ['React', 'C#', 'Javascript', 'Typescript', 'ASP.NET', 'Node'],
+        },
+        {
+          type: 'tag-list',
+          title: 'Hobbies & Interests',
+          icon: 'cubes',
+          items: ['Strategy Games', 'RPG'],
+        },
       ]}
       branding={true}
     />
